@@ -8,6 +8,5 @@ describe("Test Contact Us from via Automation Test Store", () => {
     cy.get("#ContactUsFrm_email").type("123@mail.com");
     cy.get("#ContactUsFrm_enquiry").type("Do you provide additonal discount?");
     cy.get(".col-md-6 > .btn").click();
-    cy.get("up");
   });
 });
